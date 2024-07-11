@@ -103,4 +103,4 @@ const newChel: names = {
   name: "Petr",
   surname: "Lykov",
 };
-// newChel.surname = "Hlykov" даст ошибкук
+// newChel.surname = "Hlykov" даст ошибку
