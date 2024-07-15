@@ -12,6 +12,7 @@ interface IUserPersonal {
 
 interface IUserData extends IUserNames, IUserPersonal {
   height: number;
+  weight: number;
 }
 
 class UserData implements IUserData {
@@ -20,12 +21,14 @@ class UserData implements IUserData {
   birthday: string;
   age: number;
   height: number;
+  weight: number;
   constructor(props: IUserData) {
     this.name = props.name;
     this.surname = props.surname;
     this.birthday = props.birthday;
     this.age = props.age;
     this.height = props.height;
+    this.weight = props.weight;
   }
 }
 
@@ -34,7 +37,8 @@ const userBoris: UserData = {
   surname: "Gromov",
   birthday: "16071979",
   age: 44,
-  height: 102,
+  height: 185,
+  weight: 100,
 };
 
 console.log(userBoris);
