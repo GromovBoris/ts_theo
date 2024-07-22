@@ -1,5 +1,3 @@
-// utility types
-
 interface User {
   name: string;
 }
