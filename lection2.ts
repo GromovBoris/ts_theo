@@ -67,8 +67,8 @@ interface IClassCustomer extends IClassUser {
 }
 
 class ClassCustomer extends ClassUser {
-  // восклицательный знак делает свойство необязательным
-  // bill!: number;
+  // вопросительный знак делает свойство необязательным
+  // bill?: number;
   bill: number;
 
   constructor(props: IClassCustomer) {
